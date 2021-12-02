@@ -6,8 +6,9 @@ import org.springframework.boot.test.context.SpringBootTest;
 @SpringBootTest
 class WithOneControllerClassApplicationTests {
 
-	@Test
-	void contextLoads() {
-	}
+	 	@Test
+		public void testGetCurrentTime () throws Exception {
+			ControllerClass.GetCurrentTime();
+		}
 
 }
